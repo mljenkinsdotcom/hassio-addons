@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "google_tts_http_listener",
   "description": "Provides an HTTP port for TTS media files to allow HA to run secure and TTS to work without issue.",
-  "url": "https://github.com/mljenkinsdotcom/hassio-addons/google-tts-http-listener/",
+  "url": "https://github.com/mljenkinsdotcom/hassio-addons/",
   "startup": "application",
   "boot": "auto",
   "arch": ["armhf", "amd64"],
