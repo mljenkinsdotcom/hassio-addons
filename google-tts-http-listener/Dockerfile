@@ -13,7 +13,6 @@ WORKDIR /http_server
 
 # Copy data
 COPY run.sh /
-COPY *.py /
 
 RUN chmod a+x /run.sh
 
