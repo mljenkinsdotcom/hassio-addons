@@ -1,0 +1,16 @@
+{
+  "name": "Google TTS HTTP Listener",
+  "version": "1.0.0",
+  "slug": "google_tts_http_listener",
+  "description": "This add-on provides an HTTP only port for media files.  This allows Google TTS to work even with Home Assistant configured for SSL/TLS only.",
+  "url": "https://github.com/mljenkinsdotcom/hassio-addons/google-tts-http-listener/",
+  "startup": "application",
+  "boot": "auto",
+  "arch": ["armhf", "amd64"],
+  "map": ["config"],
+  "ports": {
+    "8000/tcp": 8080
+  },
+  "options": {},
+  "schema": {}
+}
